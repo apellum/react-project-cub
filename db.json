@@ -1,0 +1,102 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Brennan Davis",
+      "position": "OF",
+      "bio": "Brendan Davis is collectively known as the Chicago Cubs best prospect. He is an athletic player that has great raw power and projects as a leadoff hitter",
+      "likes": 126
+    },
+    {
+      "id": 2,
+      "name": "Brailyn Marquez",
+      "position": "LHP",
+      "bio": "Brailyn Marquez is a HARD throwing righty reaching 101 MPH with a great breaking ball. Has high ceiling.",
+      "likes": 50
+    },
+    {
+      "id": 3,
+      "name": "Miguel Amaya",
+      "position": "C",
+      "bio": "Miguel Amaya is a catcher that is great behind the plate. He is a top 100 prospect, but we are waiting for the bat to show up.",
+      "likes": 51
+    },
+    {
+      "id": 4,
+      "name": "Chase Strumpf",
+      "position": "2B",
+      "bio": "Chase Strumpf was known as the best hitting 2B when he was drafted in 2019. He isn't known for his fielding, but he projects to stay at second.",
+      "likes": 24
+    },
+    {
+      "id": 5,
+      "name": "Christian Hernandez",
+      "position": "SS",
+      "bio": "Christian Hernandez is the best international player the Cubs have selected since Eloy Jiminez. He projects to be better.",
+      "likes": 21
+    },
+    {
+      "id": 6,
+      "name": "Ed Howard",
+      "position": "SS",
+      "bio": "Ed Howard is the Cubs 2020 first round draft pick.",
+      "likes": 22
+    },
+    {
+      "id": 7,
+      "name": "Kohl Franklin",
+      "position": "RHP",
+      "bio": "Kohl has a high ceiling, but has lost two years of development due to Covid and Injury",
+      "likes": 23
+    },
+    {
+      "id": 8,
+      "name": "Christopher Morel",
+      "position": "IF",
+      "bio": "Chris Morel is a good hitter that can play multiple positions",
+      "likes": 127
+    },
+    {
+      "id": 10,
+      "name": "Reggie Preciado",
+      "position": "SS",
+      "bio": "The main prospect in the Yu Darvish trade.",
+      "likes": 2
+    },
+    {
+      "name": "Owen Cassie",
+      "position": "OF",
+      "bio": "Redheaded power hitter in the ACL",
+      "likes": 1,
+      "id": 12
+    },
+    {
+      "name": "Dakota Mekkes",
+      "position": "RP",
+      "bio": "Righty with a unique arm slot that hides the ball",
+      "likes": 3,
+      "id": 13
+    },
+    {
+      "name": "Jordan Wicks",
+      "position": "LHP",
+      "bio": "Lefty that will move fast with a great change piece",
+      "likes": 2,
+      "id": 14
+    },
+    {
+      "name": "Manny Rodriguez",
+      "position": "RP",
+      "bio": "Throws hard",
+      "likes": 2,
+      "id": 15
+    },
+    {
+      "name": "Ethan Hearn",
+      "position": "C",
+      "bio": "LEfty Catcher",
+      "likes": 3,
+      "id": 16
+    }
+  ]
+}
