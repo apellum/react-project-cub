@@ -6,8 +6,8 @@ const Home = ({ username, setUsername}) => {
         setUsername(null)
     }
     return (
-        <div>
-            {username ? <input type="button" value="Logout" onClick={logOut}></input> : <CreateAccount username={username} setUsername={setUsername}/>}
+        <div id="logout-button">
+            {username ? <input id="log-out"type="button" value="Logout" onClick={logOut}></input> : <CreateAccount username={username} setUsername={setUsername}/>}
         </div>
     )
 }

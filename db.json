@@ -54,7 +54,7 @@
       "name": "Christopher Morel",
       "position": "IF",
       "bio": "Chris Morel is a good hitter that can play multiple positions",
-      "likes": 127
+      "likes": 128
     },
     {
       "id": 10,
@@ -94,9 +94,16 @@
     {
       "name": "Ethan Hearn",
       "position": "C",
-      "bio": "LEfty Catcher",
+      "bio": "Lefty Catcher",
       "likes": 3,
       "id": 16
+    },
+    {
+      "name": "Greg Deichman",
+      "position": "OF",
+      "bio": "Power hitting lefty from LSU",
+      "likes": 0,
+      "id": 17
     }
   ]
 }

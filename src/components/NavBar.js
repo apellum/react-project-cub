@@ -1,17 +1,15 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { makeStyles } from "@material-ui/core/styles"
 
-function NavBar ({ username }) {
 
-    
+function NavBar ({ username }) {   
 
     return (
         <>
-        <nav>
-            <NavLink to ="/home">{username ? "Logout" : "Login"}</NavLink>
-            <NavLink to ="/players">Player Rankings</NavLink>
-            <NavLink to ="/players/new">Add Prospect</NavLink>
+        <nav className="navbar">
+            <NavLink className="ranking-link" to ="/players">Player Rankings</NavLink>
+            <NavLink className="add-form-link" to ="/players/new">Add Prospect</NavLink>
+            <NavLink className="home-link" to ="/home">{username ? "Logout" : "Login"}</NavLink>
         </nav>
         </>
     )

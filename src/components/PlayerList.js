@@ -1,12 +1,11 @@
-import { id } from 'postcss-selector-parser'
-import React, { useState} from 'react'
+
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { useRouteMatch } from 'react-router-dom'
 
 const PlayerList = ({ players, updatePlayers }) => {
 
     function decreaseLikes (player) {
-        debugger
         let playerLikesUpdate = player.likes - 1
         fetch("http://localhost:3007/players/" + player.id, {
         method: "PATCH", 
@@ -46,15 +45,15 @@ const PlayerList = ({ players, updatePlayers }) => {
     const playerArray = sortedRanks.map(player =>
         <li key={player.id} >
         <Link to={match.url + "/" + player.id} >{player.name} </Link>
-            <button onClick={() => decreaseLikes(player)}>-</button>
+            <button id="list-unlike-button" onClick={() => decreaseLikes(player)}>👎</button>
             {player.likes}
-            <button onClick={() => increaseLikes(player)}>+</button>
+            <button id="list-like-button" onClick={() => increaseLikes(player)}>👍</button>
         </li>)
 
             
     return (
-        <div>
-            <ol>
+        <div class="player-list">
+            <ol class="player-list">
                 {playerArray}
             </ol>
         </div>

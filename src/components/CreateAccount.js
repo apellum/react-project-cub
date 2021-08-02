@@ -17,13 +17,13 @@ function CreateAccount ({ username, setUsername }) {
     
     return (
         <>
-        <h3>Create Account</h3>
-        <form onSubmit={handleSubmit}>
-            <label>Username</label>
-            <input value={formInput.username} type="text" required={true} onChange={event => setFormInput({username: event.target.value})}></input>
+        <h3 id="create-account-header">Create Account</h3>
+        <form id="create-form" onSubmit={handleSubmit}>
+            <label id="username-header">Username</label>
+            <input id="username-input" value={formInput.username} type="text" required={true} onChange={event => setFormInput({username: event.target.value})}></input>
             <br></br>
-            <label>Create Account</label>
-            <input type="submit"></input>
+            {/* <label>Create Account</label> */}
+            <input id="create-submit" type="submit"></input>
         </form>
         </>
     )

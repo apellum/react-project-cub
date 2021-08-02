@@ -39,8 +39,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <NavBar username={username}/>
-      <h1>{username ? "Welcome to Cubs Liker " + username.username + "!": "Welcome to Cubs Liker!"}</h1>
-      <h2>The number one spot for ranking Cubs prospects</h2>
+      <h1 id="welcome-header">{username ? "Welcome to Cubs Liker " + username.username + "!": "Welcome to Cubs Liker!"}</h1>
+      <h2 id="h2">The number one spot for ranking Cubs prospects</h2>
       <Switch>
         <Route exact path="/">
           <Redirect to="/home"/>

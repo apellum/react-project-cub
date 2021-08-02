@@ -48,13 +48,13 @@ const PlayerCard = ({updatePlayers}) => {
 
     if (!player) return <h2>Loading....</h2>
     return (
-        <div>
-            <h2>{player.name}</h2>
+        <div id="player-card">
+            <h2 id="player-card-name">{player.name}</h2>
             <h2>{player.position}</h2>
             <h2>{player.bio}</h2>
-            <input type="button" value="👎" onClick={decreaseLikes}></input>
+            <input className="player-card-like-buttons"type="button" value="👎" onClick={decreaseLikes}></input>
             <h3>{player.likes}</h3>
-            <input type="button" value="👍" onClick={increaseLikes}></input>
+            <input class="player-card-like-buttons"type="button" value="👍" onClick={increaseLikes}></input>
         </div>
     )
 }

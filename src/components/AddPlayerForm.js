@@ -54,11 +54,11 @@ const AddPlayerForm = () => {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form id="add-player-form"onSubmit={handleSubmit}>
                 <input name="name" value={formInput.name} type="text" placeholder="name" onChange={handleChange}></input>
                 <input name="position" value={formInput.position} type="text" placeholder="position" onChange={handleChange}></input>
                 <input name="bio" value={formInput.bio} type="text" placeholder="bio" onChange={handleChange}></input>
-                <input type="submit" value="Add Player"></input>
+                <input id="add-player-submit" type="submit" value="Add Player"></input>
             </form>
         </div>
     )
